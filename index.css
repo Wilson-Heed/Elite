@@ -1,0 +1,360 @@
+.toppart li{
+    list-style-type: none;
+}
+.toppart{
+    display: flex;
+}
+/* .catigo{
+    padding-left: 70px;
+} */
+.ash1{
+    font-size: 20px;
+}
+.ash{
+    color: limegreen;
+    font-style: italic;
+}
+.to{
+    font-size: 30px; 
+}
+.to span{
+    font-style: italic;
+}
+/* .car{
+    margin-bottom: 250px;
+    margin-left: 400px;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+} */
+/* .car2{
+    margin-bottom: 180px;
+    margin-right: 400px;
+    color: rgb(126, 119, 119);
+    font-weight: bold;   
+} */
+/* .car3{
+    margin-bottom: 250px;
+    margin-left: 300px;
+    color:rgb(255, 248, 248);
+    font-weight: bold;
+} */
+.star{
+   color: goldenrod;
+}
+.sec3{
+    background-color: rgb(179, 174, 174);
+}
+.sale{
+    font-style: italic;
+}
+.shop{
+    background-color: green;
+    border: 0px solid transparent;
+    color: white;
+    margin-bottom: 20px;
+}
+.red{
+    text-align: center;
+    margin: 20px;
+}
+.con{
+    border: 0px solid transparent;
+    padding: 10px;
+    color: white;
+    background-color: green;
+}
+.con2{
+    position: relative;
+    right: 44px;
+    top: 200px;
+}
+.cond{
+    position: absolute;
+}
+.per{
+    border: 1px solid transparent;
+    color: white;
+    padding: 0px 30px;
+    background-color: rgb(236, 120, 11);
+}
+.per2{
+    position: relative;
+    right: 313px;
+    top: 1px;
+}
+.second{
+    display: none;
+}
+/* responsivness */
+@media(max-width:1400px){
+    .cond{
+        position: absolute;
+    }
+    .con{
+        border: 0px solid transparent;
+        padding: 10px;
+        color: white;
+        background-color: green;
+    }
+    .con2{
+        position: relative;
+        right: 40px;
+        top: 200px;
+    }
+    .per{
+        border: 1px solid transparent;
+        color: white;
+        padding: 0px 30px;
+        background-color: rgb(236, 120, 11);
+    }
+    .per2{
+        position: relative;
+        right: 326px;
+        top: 1px;
+    }
+}
+
+@media(max-width:1200px){
+    .cond{
+        position: absolute;
+    }
+    .per{
+        border: 1px solid transparent;
+        color: white;
+        padding: 0px 30px;
+        background-color: rgb(236, 120, 11);
+    }
+    .per2{
+        position: relative;
+        right: 276px;
+        top: 1px;
+    }
+}
+@media(max-width:992px){
+    .second{
+        display:contents;
+    }
+    .toppart{
+        display: none;
+    }
+    .cond{
+        position: absolute;
+    }
+    .per{
+        border: 1px solid transparent;
+        color: white;
+        padding: 0px 30px;
+        background-color: rgb(236, 120, 11);
+    }
+    .per2{
+        position: relative;
+        right: 225px;
+        top: 1px;
+    }
+    .con{
+        border: 0px solid transparent;
+        padding: 10px;
+        color: white;
+        background-color: green;
+    }
+    .con2{
+        position: relative;
+        right: 40px;
+        top: 100px;
+    }
+}
+@media(max-width:768px){
+    .cond{
+        position: absolute;
+    }
+    .per{
+        border: 1px solid transparent;
+        color: white;
+        padding: 0px 30px;
+        background-color: rgb(236, 120, 11);
+    }
+    .per2{
+        position: relative;
+        right: 168px;
+        top: 1px;
+    }
+}
+@media(max-width:576px){
+    .cond{
+        position: absolute;
+    }
+    .per{
+        border: 1px solid transparent;
+        color: white;
+        padding: 0px 20px;
+        background-color: rgb(236, 120, 11);
+    }
+    .per2{
+        position: relative;
+        right: 122px;
+        top: 1px;
+    }
+    .con{
+        border: 0px solid transparent;
+        padding: 5px;
+        color: white;
+        background-color: green;
+    }
+    .con2{
+        position: relative;
+        right: 30px;
+        top: 50px;
+    }
+    .star{
+        color: goldenrod;
+        font-size: 10px;
+     }
+     .images{
+        margin-top: 150px;
+        width: 150px;
+     }
+     .down p{
+        /* height: 350px; */
+        font-size: 10px;
+        
+     }
+     .down h5{
+        font-size: 12px;
+     }
+    .words{
+        font-size: 10px;
+    }
+
+}
+@media(max-width:533px){
+    .star{
+        color: goldenrod;
+        font-size: 5px;
+     }   
+    .cond p{
+        font-size: 10px;
+    }
+    .cond{
+        position: absolute;
+    }
+    .per{
+        border: 1px solid transparent;
+        color: white;
+        padding: 0px 10px;
+        background-color: rgb(236, 120, 11);
+    }
+    .per2{
+        position: relative;
+        right: 115px;
+        top: 1px;
+    }
+
+}
+@media(max-width:400px){
+    .louse{
+        font-size: 10px;
+    }
+    .cond{
+        position: absolute;
+    }
+    .per{
+        border: 1px solid transparent;
+        color: white;
+        padding: 0px 5px;
+        font-size: 10px;
+        background-color: rgb(236, 120, 11);
+    }
+    .per2{
+        position: relative;
+        right: 90px;
+        top: 1px;
+    }
+    .con{
+        border: 0px solid transparent;
+        padding: 5px;
+        color: white;
+        font-size: 10px;
+        background-color: green;
+    }
+    .con2{
+        position: relative;
+        right: 22px;
+        top: 30px;
+    }
+    .images{
+        margin-top: 150px;
+        width: 100px;
+        height:200px 
+     }
+     .down p{
+        /* height: 350px; */
+        font-size: 5px;
+        
+     }
+     .down h5{
+        font-size: 8px;
+     }
+     .to{
+        font-size: 15px; 
+    }
+    .to span{
+        font-style: italic;
+    }
+    .wide{
+        font-size: 10px;
+    }
+}
+@media(max-width:368px){
+     .louse{
+        font-size: 5px;
+    }
+    .words{
+        font-size: 5px;
+    }
+    .images{
+        margin-top: 80px;
+        width: 100px;
+        height:200px 
+     }
+     .con{
+        border: 0px solid transparent;
+        padding: 2px;
+        color: white;
+        font-size: 7px;
+        background-color: green;
+    }
+    .con2{
+        position: relative;
+        right: 13px;
+        top: 10px;
+    }
+    .down p{
+        /* height: 350px; */
+        font-size: 2px;
+     }
+     .down h5{
+        font-size: 5px;
+     }
+     .per2{
+        position: relative;
+        right: 82px;
+        top: 1px;
+    }
+}
+@media(max-width:310px){
+    .per2{
+        position: relative;
+        right: 68px;
+        top: 1px;
+    }
+    .star{
+        color: goldenrod;
+        font-size: 2px;
+     }   
+     .up{
+        font-size: 15px;
+     }
+     .save{
+        font-size: 10px;
+     }
+}
